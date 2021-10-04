@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Item 1",
+    "text": "Text 1",
+    "src": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+  },
+  {
+    "title": "Item 2",
+    "text": "Text 2",
+    "src": "https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__340.jpg"
+  },
+  {
+    "title": "Item 3",
+    "text": "Text 3",
+    "src": "https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg"
+  }
+]

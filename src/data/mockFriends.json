@@ -1,0 +1,26 @@
+[
+  {
+    "image": "https://pbs.twimg.com/profile_images/974736784906248192/gPZwCbdS.jpg",
+    "displayName": "Tony Start",
+    "status": "invite",
+    "location": "London"
+  },
+  {
+    "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTk2OGU4NzktODhhOC00Nzc2LWIyNzYtOWViMjljZGFiNTMxXkEyXkFqcGdeQXVyMTE1NTQwOTk@._V1_UY256_CR12,0,172,256_AL_.jpg",
+    "displayName": "Steave Rogers",
+    "status": "pending",
+    "location": "NY"
+  },
+  {
+    "image": "https://uifaces.co/our-content/donated/n4Ngwvi7.jpg",
+    "displayName": "Rick",
+    "status": "invite",
+    "location": "Astana"
+  },
+  {
+    "image": "https://randomuser.me/api/portraits/men/61.jpg",
+    "displayName": "Harry Pooter",
+    "status": "invite",
+    "location": "Hogwarts"
+  }
+]

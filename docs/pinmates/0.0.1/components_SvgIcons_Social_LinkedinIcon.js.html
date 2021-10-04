@@ -1,0 +1,150 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pinmates components/SvgIcons/Social/LinkedinIcon.js</title>
+
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./build/entry.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700|Inconsolata,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/iframe.css">
+  <link type="text/css" rel="stylesheet" href="">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  
+</head>
+
+
+
+<body class="layout small-header">
+    <div id="stickyNavbarOverlay"></div>
+    
+
+<div class="top-nav">
+    <div class="inner">
+        <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="logo">
+            
+             
+                <a href="index.html">
+                    <h1 class="navbar-item">Pinmates App Documentation</h1>
+                </a>
+            
+        </div>
+        <div class="menu">
+            
+            <div class="navigation">
+                <a
+                    href="index.html"
+                    class="link"
+                >
+                    API Documentation
+                </a>
+                <div class="dropdown is-hoverable is-right">
+                    <a class="dropdown-trigger link">
+                        Tutorials
+                        <i class="fas fa-chevron-down fa-xs"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                        
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="main">
+        <div
+            class="sidebar "
+            id="sidebarNav"
+        >
+            
+            <nav>
+                
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Global</h3><ul><li><a href="global.html#CheckIcon">CheckIcon</a></li><li><a href="global.html#CloseIcon">CloseIcon</a></li><li><a href="global.html#FacebookIcon">FacebookIcon</a></li><li><a href="global.html#GameChatIcon">GameChatIcon</a></li><li><a href="global.html#GameListIcon">GameListIcon</a></li><li><a href="global.html#GeoIcon">GeoIcon</a></li><li><a href="global.html#Horizontal">Horizontal</a></li><li><a href="global.html#KeyboardArrowDownIcon">KeyboardArrowDownIcon</a></li><li><a href="global.html#KeyboardArrowLeftIcon">KeyboardArrowLeftIcon</a></li><li><a href="global.html#LinkedinIcon">LinkedinIcon</a></li><li><a href="global.html#MyButton">MyButton</a></li><li><a href="global.html#MyText">MyText</a></li><li><a href="global.html#PasswordField">PasswordField</a></li><li><a href="global.html#PhoneField">PhoneField</a></li><li><a href="global.html#ProfileIcon">ProfileIcon</a></li><li><a href="global.html#SettingsIcon">SettingsIcon</a></li><li><a href="global.html#TextField">TextField</a></li><li><a href="global.html#Vertical">Vertical</a></li></ul></div>
+                
+            </nav>
+        </div>
+        <div class="core" id="main-content-wrapper">
+            <div class="content">
+                <header class="page-title">
+                    <p>Source</p>
+                    <h1>components/SvgIcons/Social/LinkedinIcon.js</h1>
+                </header>
+                
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>// @ts-check
+
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
+import '../../../typedefs';
+
+/** @param {SvgIcon} props */
+function LinkedinIcon(props) {
+  return (
+    &lt;Svg width={props.width} height={props.height} fill="none" {...props}>
+      &lt;Path
+        d="M6.79212 28V9.10845H0.378406V28H6.79212ZM3.58609 6.52758C5.82267 6.52758 7.21483 5.07693 7.21483 3.2641C7.17316 1.41039 5.82276 0 3.62854 0C1.43466 0 0 1.41041 0 3.2641C0 5.07701 1.39182 6.52758 3.54422 6.52758H3.58589H3.58609ZM10.3421 28H16.7558V17.45C16.7558 16.8854 16.7975 16.3214 16.9669 15.9178C17.4305 14.7897 18.4858 13.6213 20.2576 13.6213C22.5784 13.6213 23.5069 15.3537 23.5069 17.8933V27.9999H29.9202V17.1676C29.9202 11.3649 26.756 8.66493 22.5362 8.66493C19.0762 8.66493 17.5571 10.5583 16.7131 11.8479H16.756V9.10806H10.3422C10.4264 10.8807 10.3422 27.9996 10.3422 27.9996L10.3421 28Z"
+        fill={props.color}
+        opacity={props.opacity}
+      />
+    &lt;/Svg>
+  );
+}
+
+export default LinkedinIcon;
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+            </div>
+            
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.4</a></p>
+                    <p class="sidebar-created-by">
+                        <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by 
+                        <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers - JavaScript Development Agency</a>
+                    </p>
+                </div>
+            </footer>
+            
+        </div>
+        <div id="side-nav" class="side-nav">
+        </div>
+    </div>
+<script src="scripts/app.min.js"></script>
+<script>PR.prettyPrint();</script>
+<script src="scripts/linenumber.js"> </script>
+
+</body>
+</html>

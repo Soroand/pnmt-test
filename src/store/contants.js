@@ -1,0 +1,33 @@
+export const COMPLETE = '/COMPLETE';
+export const SUCCESS = '/SUCCESS';
+export const FAIL = '/FAIL';
+export const REQUEST = '/REQUEST';
+export const ADD = '/ADD';
+export const REMOVE = '/REMOVE';
+export const CONFIRM = '/CONFIRM';
+export const RESET = '/RESET';
+export const INVITE = '/INVITE';
+export const DECLINE = '/DECLINE';
+export const PLAYER = '/PLAYER';
+export const FILTER_MYGAMES = '/FILTER_MYGAMES';
+export const CLEAR_ALL = '/CLEAR_ALL';
+export const PAST = '/PAST';
+
+export const LOGIN = '/LOGIN';
+export const REGISTRATION = '/REGISTRATION';
+export const CONFIRM_NUMBER = '/CONFIRM_NUMBER';
+export const LOGOUT = '/LOGOUT';
+export const MY_PROFILE = '/MY_PROFILE';
+export const GAMES = '/GAMES';
+export const GAME = '/GAME';
+export const CLUBS = '/CLUBS';
+export const CLUB = '/CLUB';
+export const PROFILE = '/PROFILE';
+export const FRIENDS = '/FRIENDS';
+export const LANGUNAGES = '/LANGUNAGES';
+export const LOCATION = '/LOCATION';
+export const FILTER_CITY = '/FILTER_CITY';
+export const CLEAR_CITY = '/CLEAR_CITY';
+
+export const JOIN = '/JOIN';
+export const REQUESTS = '/REQUESTS';

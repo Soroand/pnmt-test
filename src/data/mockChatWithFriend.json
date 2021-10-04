@@ -1,0 +1,35 @@
+[
+  {
+    "isActive": true,
+    "title": "Sandpiper golf course",
+    "lastMessageFrom": "Alex Petrov",
+    "lastMessage": "If I'm already on the field, I expect...",
+    "isGroup": true,
+    "date": "10.02.20",
+    "userAvatars": [
+      "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?h=350&auto=compress&cs=tinysrgb",
+      "https://images.pexels.com/photos/247885/pexels-photo-247885.jpeg?h=350&auto=compress&cs=tinysrgb",
+      "https://uifaces.co/our-content/donated/FRdmYcK0.jpg"
+    ]
+  },
+  {
+    "isActive": true,
+    "title": "Alex Petrov",
+    "lastMessage": "He managed to get into that hole after all?!",
+    "isGroup": false,
+    "date": "10.02.20",
+    "userAvatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?h=350&auto=compress&cs=tinysrgb"
+  },
+  {
+    "isActive": false,
+    "title": "Moonshine Madness",
+    "lastMessageFrom": "Alex Petrov",
+    "lastMessage": "I will sober up as we go, promise...",
+    "isGroup": true,
+    "date": "18.01.21",
+    "userAvatars": [
+      "https://images.pexels.com/photos/247885/pexels-photo-247885.jpeg?h=350&auto=compress&cs=tinysrgb",
+      "https://ychef.files.bbci.co.uk/1280x720/p04dgkm4.webp"
+    ]
+  }
+]

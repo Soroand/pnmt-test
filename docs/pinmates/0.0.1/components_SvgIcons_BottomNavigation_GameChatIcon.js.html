@@ -1,0 +1,155 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pinmates components/SvgIcons/BottomNavigation/GameChatIcon.js</title>
+
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="./build/entry.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700|Inconsolata,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+  <link type="text/css" rel="stylesheet" href="styles/iframe.css">
+  <link type="text/css" rel="stylesheet" href="">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  
+</head>
+
+
+
+<body class="layout small-header">
+    <div id="stickyNavbarOverlay"></div>
+    
+
+<div class="top-nav">
+    <div class="inner">
+        <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="logo">
+            
+             
+                <a href="index.html">
+                    <h1 class="navbar-item">Pinmates App Documentation</h1>
+                </a>
+            
+        </div>
+        <div class="menu">
+            
+            <div class="navigation">
+                <a
+                    href="index.html"
+                    class="link"
+                >
+                    API Documentation
+                </a>
+                <div class="dropdown is-hoverable is-right">
+                    <a class="dropdown-trigger link">
+                        Tutorials
+                        <i class="fas fa-chevron-down fa-xs"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                        
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="main">
+        <div
+            class="sidebar "
+            id="sidebarNav"
+        >
+            
+            <nav>
+                
+                    <h2><a href="index.html">Documentation</a></h2><div class="category"><h3>Global</h3><ul><li><a href="global.html#CheckIcon">CheckIcon</a></li><li><a href="global.html#CloseIcon">CloseIcon</a></li><li><a href="global.html#FacebookIcon">FacebookIcon</a></li><li><a href="global.html#GameChatIcon">GameChatIcon</a></li><li><a href="global.html#GameListIcon">GameListIcon</a></li><li><a href="global.html#GeoIcon">GeoIcon</a></li><li><a href="global.html#Horizontal">Horizontal</a></li><li><a href="global.html#KeyboardArrowDownIcon">KeyboardArrowDownIcon</a></li><li><a href="global.html#KeyboardArrowLeftIcon">KeyboardArrowLeftIcon</a></li><li><a href="global.html#LinkedinIcon">LinkedinIcon</a></li><li><a href="global.html#MyButton">MyButton</a></li><li><a href="global.html#MyText">MyText</a></li><li><a href="global.html#PasswordField">PasswordField</a></li><li><a href="global.html#PhoneField">PhoneField</a></li><li><a href="global.html#ProfileIcon">ProfileIcon</a></li><li><a href="global.html#SettingsIcon">SettingsIcon</a></li><li><a href="global.html#TextField">TextField</a></li><li><a href="global.html#Vertical">Vertical</a></li></ul></div>
+                
+            </nav>
+        </div>
+        <div class="core" id="main-content-wrapper">
+            <div class="content">
+                <header class="page-title">
+                    <p>Source</p>
+                    <h1>components/SvgIcons/BottomNavigation/GameChatIcon.js</h1>
+                </header>
+                
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>// @ts-check
+
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
+import '../../../typedefs';
+
+/** @param {SvgIcon} props */
+function GameChatIcon(props) {
+  return (
+    &lt;Svg width={props.width} height={props.height} fill="none" {...props}>
+      &lt;Path
+        d="M35.4707 10.9136H27.037V7.49509C27.037 3.9057 24.1503 1 20.5843 1H7.45264C3.88671 1 1 3.9057 1 7.49509V15.0157C1 18.6051 3.88671 21.5108 7.45264 21.5108H11.9808L18.3769 28.1198V21.4538H20.5843C21.0372 21.4538 21.5466 21.3969 21.9428 21.2829C22.2824 23.5049 24.1503 25.2141 26.471 25.2141H27.7728V30L32.4142 25.2141H35.4141C37.9612 25.2141 39.9989 23.1631 39.9989 20.5992V15.4715C40.0555 12.9646 37.9612 10.9136 35.4707 10.9136ZM17.2448 20.3143V25.2711L12.4902 20.3143H7.45264C4.50933 20.3143 2.13204 17.9214 2.13204 14.9587V7.49509C2.13204 4.53242 4.50933 2.13949 7.45264 2.13949H20.5843C23.5277 2.13949 25.9049 4.53242 25.9049 7.49509V15.0157C25.9049 17.9784 23.5277 20.3713 20.5843 20.3713H17.2448V20.3143ZM38.9234 20.5992C38.9234 22.5363 37.3952 24.0747 35.4707 24.0747H31.9614L28.9615 27.1513V24.0747H26.471C24.7163 24.0747 23.2446 22.7073 23.0748 20.9411C25.3955 19.9725 27.037 17.6365 27.037 14.9587V11.9961H35.4707C37.3952 11.9961 38.9234 13.5344 38.9234 15.4715V20.5992Z"
+        fill={props.color}
+        fill-opacity={props.opacity}
+      />
+      &lt;Path
+        d="M18.4769 28.1198V21.5538H20.5843C21.004 21.5538 21.4734 21.5058 21.8621 21.4081C22.2528 23.6229 24.1371 25.3141 26.471 25.3141H27.6728V30V30.2468L27.8446 30.0696L32.4565 25.3141H35.4141C38.017 25.3141 40.0989 23.2177 40.0989 20.5992V15.4728C40.1562 12.9079 38.0146 10.8136 35.4707 10.8136H27.137V7.49509C27.137 3.85109 24.2061 0.9 20.5843 0.9H7.45264C3.83086 0.9 0.9 3.85109 0.9 7.49509V15.0157C0.9 18.6597 3.83086 21.6108 7.45264 21.6108H11.9384L18.305 28.1894L18.4769 28.367V28.1198ZM17.2448 20.2713V20.3143H17.1448V20.3713V20.4713V25.0224L12.5624 20.2451L12.5329 20.2143H12.4902H7.45264C4.56518 20.2143 2.23204 17.8668 2.23204 14.9587V7.49509C2.23204 4.58703 4.56518 2.23949 7.45264 2.23949H20.5843C23.4718 2.23949 25.8049 4.58703 25.8049 7.49509V15.0157C25.8049 17.9238 23.4718 20.2713 20.5843 20.2713H17.2448ZM31.9614 23.9747H31.9192L31.8898 24.0048L29.0615 26.9055V24.0747V23.9747H28.9615H26.471C24.7935 23.9747 23.3799 22.6853 23.1821 21.0042C25.5029 20.0032 27.137 17.6512 27.137 14.9587V12.0961H35.4707C37.3393 12.0961 38.8234 13.589 38.8234 15.4715V20.5992C38.8234 22.4817 37.3393 23.9747 35.4707 23.9747H31.9614Z"
+        fill={props.color}
+        fill-opacity={props.opacity}
+      />
+    &lt;/Svg>
+  );
+}
+
+export default GameChatIcon;
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+            </div>
+            
+            <footer class="footer">
+                <div class="content has-text-centered">
+                    <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.4</a></p>
+                    <p class="sidebar-created-by">
+                        <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by 
+                        <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers - JavaScript Development Agency</a>
+                    </p>
+                </div>
+            </footer>
+            
+        </div>
+        <div id="side-nav" class="side-nav">
+        </div>
+    </div>
+<script src="scripts/app.min.js"></script>
+<script>PR.prettyPrint();</script>
+<script src="scripts/linenumber.js"> </script>
+
+</body>
+</html>

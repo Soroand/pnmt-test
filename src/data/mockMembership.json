@@ -1,0 +1,39 @@
+[
+  {
+    "type": "Monthly",
+    "price": "$4.95 / month",
+    "popular": true,
+    "pros": [
+      "Advanced statistics",
+      "Booking cancellation",
+      "Priority support",
+      "Job verify"
+    ],
+    "text": "$39.95 billed annualy as recurring payment\nSave 33% by paying annually."
+  },
+  {
+    "type": "Monthly",
+    "price": "$4.95 / month",
+    "popular": false,
+    "pros": [
+      "Advanced statistics",
+      "Booking cancellation",
+      "Priority support",
+      "Job verify",
+      "Chat history"
+    ],
+    "text": "$39.95 billed annualy as recurring payment\nSave 33% by paying annually."
+  },
+  {
+    "type": "Annual",
+    "price": "$4.95 / month",
+    "popular": false,
+    "pros": [
+      "Advanced statistics",
+      "Booking cancellation",
+      "Priority support",
+      "Job verify"
+    ],
+    "text": "$39.95 billed annualy as recurring payment\nSave 33% by paying annually."
+  }
+]

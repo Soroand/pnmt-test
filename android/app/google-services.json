@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "685826610978",
+    "project_id": "pinmate-notifications",
+    "storage_bucket": "pinmate-notifications.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685826610978:android:ebf3f406f4bb449ca3777b",
+        "android_client_info": {
+          "package_name": "com.pinmates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685826610978-j79cu59so3daql4v0nrufktqe7ulqc56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCLU-VAT2D-tXwHbuGOrQJZs9eiaARm9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685826610978-j79cu59so3daql4v0nrufktqe7ulqc56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
